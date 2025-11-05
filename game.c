@@ -11,10 +11,10 @@ int main(){
         printf("Enter A Guess : ");
         scanf("%d",&g);
         if(g>n){
-            printf("Chutiya Lay pudhacha Vichar Nako Karu\n");
+            printf("Your Guess is Too High\n");
         }
         else if(g<n){
-            printf("Chutiya Lay Magh Rahila Tu\n");
+            printf("Your Guess is Too Low\n");
         }
         else{
             printf("Hurray!  Correct Guess\n");
